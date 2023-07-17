@@ -1,0 +1,29 @@
+body {
+    width:200px;
+    background: linear-gradient(253.42deg, #000000 -24.55%, #6C6B6B 127.23%);;
+    text-align:center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 14px;
+    color: #ffffff;
+}
+
+button {
+    color:white;
+    background:transparent;
+    width: 200px;
+    padding:10px;
+    font-weight: bold;
+    cursor:pointer;
+    box-shadow: 2px 2px #00000066;
+    margin-right: 20px;
+    font-size:16px;
+    border: 2px solid #85E2E2;
+    border-radius: 25px;
+    transition: all 0.1s linear;
+}
+
+button:hover {
+    color:#85E2E2;
+    box-shadow :1px 0px 4px #85E2E2;
+}

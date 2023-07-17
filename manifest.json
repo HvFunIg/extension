@@ -1,6 +1,6 @@
 {
     "name": "Image Grabber",
-    "description": "Extract all images from current web page",
+    "description": "Скачать все изображения со страницы",
     "version": "1.0",
     "manifest_version": 3,
     "icons": {
@@ -12,6 +12,9 @@
     "action": {
         "default_popup":"popup.html"
     },
-    "permissions": [],
+    "permissions": ["scripting", "activeTab"],  
+    "host_permissions": [
+        "https://*/*" 
+    ],
     "background":{}
 }
